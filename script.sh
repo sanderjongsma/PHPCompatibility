@@ -1,0 +1,1 @@
+ln -s ${COMPOSER_VENDOR_DIR}/wimg/php-compatibility ${COMPOSER_VENDOR_DIR}/squizlabs/php_codesniffer/CodeSniffer/Standards/PHPCompatibility

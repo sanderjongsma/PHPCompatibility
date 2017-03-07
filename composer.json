@@ -1,0 +1,20 @@
+{
+    "name" : "sanderjongsma/php-compatibility",
+    "description" : "This is a workaround to use wimg/PHPCompatibility with grumphp without symlinking yourself.",
+    "require" : {
+        "wimg/php-compatibility" : "~7.0"
+    },
+    "scripts" : {
+        "post-install-cmd": [
+            "bash script.sh"
+        ]
+
+    },
+    "license" : "LGPL-3.0",
+    "keywords" : [ "compatibility", "phpcs", "wimg" ],
+    "type" : "phpcodesnipper-helper",
+    "authors" : [ {
+        "name" : "Sander Jongsma",
+        "role" : "Developer"
+    } ]
+}
